@@ -1,0 +1,110 @@
+---------------------------------------------------------------------
+
+create database news;
+use news;
+
+create table customer (
+sid integer primary key auto_increment,
+name varchar(500),
+email varchar(500),
+contactno varchar(500),
+houseno varchar(500),
+colony varchar(500),
+landmark varchar(500),
+city varchar(500),
+delcharges int,
+rate int,
+flag varchar(500),
+newspaper varchar(500),
+date varchar(500),
+namen varchar(500));
+
+
+create table loginCustomer (
+sid integer primary key auto_increment,
+userid varchar(50),
+pwd varchar(50),
+userrole varchar(50));
+
+
+INSERT INTO loginCustomer (userid, pwd,userrole)
+VALUES ('admin','1234','admin');
+
+
+create table loginProduct (
+sid integer primary key auto_increment,
+userid varchar(50),
+pwd varchar(50),
+userrole varchar(50));
+
+
+INSERT INTO loginProduct (userid, pwd,userrole)
+VALUES ('admin','1234','admin');
+
+
+create table newspaper (
+sid integer primary key auto_increment,
+name varchar(500),
+rate int,
+paperdesc varchar(500));
+
+
+INSERT INTO newspaper(name, rate,paperdesc)
+VALUES ('sakal',5,'marathi paper');
+
+
+create table bill (
+sid integer primary key auto_increment,
+name varchar(500),
+email varchar(500),
+contactno varchar(500),
+houseno varchar(500),
+colony varchar(500),
+landmark varchar(500),
+city varchar(500),
+delcharges int,
+amount int,
+tdate int,
+rate int,
+date1 varchar(500),
+newspaper varchar(500),
+date2 varchar(500),
+namen varchar(500),
+cdate varchar(500));
+
+
+
+name,email,contactno,houseno,colony,landmark,city,delcharges,amount,tdate,date1,newspaper,date2
+
+
+
+
+------------------------------------------------------------------
+
+sid 
+name 
+email 
+contactno 
+houseno 
+colony 
+landmark 
+City 
+flag 
+newspaper 
+date 
+
+delcharges int,
+
+userid
+pwd
+userrole
+
+
+
+
+
+
+
+
+
+
